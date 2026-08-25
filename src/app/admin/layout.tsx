@@ -22,7 +22,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="relative w-24 h-10 bg-white flex items-center justify-center shrink-0">
-               <Image src="/logo.png" alt="Establecimiento Ferreyra" fill className="object-contain" />
+               <Image src="/logo.webp" alt="Establecimiento Ferreyra" fill className="object-contain" />
             </div>
             <h1 className="font-extrabold text-xl tracking-tight hidden sm:block">Gestor de Catálogo</h1>
           </div>

@@ -205,7 +205,7 @@ export default function CatalogPage() {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2 sm:gap-3">
             <div className="relative w-16 sm:w-24 h-10 sm:h-12 bg-white flex items-center justify-center shrink-0">
-               <Image src="/logo.png" alt="Establecimiento Ferreyra" fill className="object-contain mix-blend-multiply" />
+               <Image src="/logo.webp" alt="Establecimiento Ferreyra" fill className="object-contain mix-blend-multiply" />
             </div>
             <div>
               <h1 className="font-extrabold text-[12px] sm:text-lg tracking-tight leading-none uppercase text-zinc-800">Establecimiento<br/>Ferreyra</h1>

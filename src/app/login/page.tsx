@@ -41,7 +41,7 @@ export default function LoginPage() {
         {/* Header del Login */}
         <div className="flex flex-col items-center mb-10">
           <div className="relative w-32 h-14 bg-white flex items-center justify-center shrink-0 mb-6">
-             <Image src="/logo.png" alt="Logo" fill className="object-contain" priority />
+             <Image src="/logo.webp" alt="Logo" fill className="object-contain" priority />
           </div>
           <div className="flex items-center gap-2 text-zinc-400 mb-2">
             <ShieldCheck size={16} />
