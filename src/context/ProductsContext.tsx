@@ -2,20 +2,7 @@
 
 import { createContext, useContext, useState, ReactNode } from "react";
 
-export type Product = {
-  id: number;
-  name: string;
-  description?: string;
-  price: string;
-  oldPrice?: string;
-  estimatedUnitPrice?: string;
-  category: string;
-  categoryId?: number;
-  stock: boolean;
-  image: string;
-  isOffer: boolean;
-  saleType: "peso" | "unidad" | "ambos";
-};
+import { Product } from "@/types";
 
 type ProductsContextType = {
   products: Product[];
